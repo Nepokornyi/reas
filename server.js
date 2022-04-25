@@ -12,6 +12,7 @@ const PORT = process.env.PORT || 8080;
 
 
 //DB connection
+//Ano je to zranitelnost
 const mongodb_URI = 'mongodb+srv://admin:reas123@reas.gxzko.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 mongoose.connect(mongodb_URI, {
